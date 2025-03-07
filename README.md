@@ -1,12 +1,25 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+git init
+git add .
+git commit -m "Mi primer Reactviet"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git remote add origin https://github.com/baterabajo/react-v2.git
+>> git branch -M main
+>> git push -u origin main
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
+ npm install react-router-dom
+npm install react-hook-form
+
+Para actualizar React Vite -Netlify
+
+git add .
+git commit -m "Mi primer Reactviet"
+
+revisamos la pagina https://app.netlify.com/sites/react-v2-vite-netlify/overview
+
+https://react-v2-vite-netlify.netlify.app/
+
