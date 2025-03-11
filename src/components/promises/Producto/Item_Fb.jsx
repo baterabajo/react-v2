@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Item_Fb = ({ producto }) => {
   return (
     <>
-    <h1>Item_Fb</h1>
+    <h1 classname='titulo'>Item_Fb</h1>
        <img src={producto.image} alt={producto.title} width="200" height="100" />
        <item key={producto.id} />
        <h2>Id: {producto.id}</h2>

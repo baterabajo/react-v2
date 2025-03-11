@@ -24,27 +24,24 @@ const ItemDetail_Fb = ({ item }) => {
 
   return (
     <>
-      <h1>ItemDetail_Fb</h1>
+      <h1 classname='titulo'>ItemDetail_Fb</h1>
       <item key={item.name} item={item} />
-     
+
       <div >
-      <img  className='center'  src={item.image} alt={item.title} width="200" height="100"/>
+        <img className='center' src={item.image} alt={item.title} width="200" height="100" />
         <div className='ItemDetalleFlex' >
-        
-         <h2>Id: {item.id}</h2>
+          <h2>Id: {item.id}</h2>
           <h3>{item.title}</h3>
           <h3>${item.price}</h3>
-           <h3>Sotck:{item.stock}</h3>
+          <h3>Sotck:{item.stock}</h3>
         </div>
-
       </div>
-     
       <ItemCount cantidad={cantidad}
         handleSumar={handleSumar}
         handleRestar={handleRestar}
-        handleAgregar={ ()=> { agregarAlCarrito(item, cantidad) }} >
+        handleAgregar={() => { agregarAlCarrito(item, cantidad) }} >
       </ItemCount>
-      </>
+    </>
   )
 }
 

@@ -18,7 +18,7 @@ const ItemDetail = ({ item }) => {
   }
   return (
     <>
-      <h1>Item Detalle</h1>
+      <h1 classname='titulo'>Item Detalle</h1>
       <item key={item.name} item={item} />
       <div >
         <img className='center' src={item.image} alt={item.title} width="200" height="100" />

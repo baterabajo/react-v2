@@ -9,6 +9,7 @@ const Xxx = () => {
     const [item, setItem] = useState(null);
     const id = "JYqT0N7xuM4ucyLwVeKW";
 
+   
     useEffect(() => {
         const docRef = doc(db, "productos", id);
         getDoc(docRef)
@@ -20,7 +21,7 @@ const Xxx = () => {
 
     return (
         <div>
-            <h1>producto: Firebase</h1>
+            <h1 classname='titulo'>producto: Firebase</h1>
             {
                 item &&
                 <div>

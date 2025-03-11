@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 import { pedirProductos } from '../../../helpers/pedirDatos';
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
@@ -23,9 +22,12 @@ const ItemListContainer = () => {
   }, [title]);
 
   return (
-    <div className='containerFlex'>
-      <ItemList producto={producto} titulo={titulo} />
-    </div>
+    <>
+      <h1 classname='titulo'>ItemListContainer</h1>
+      <div className='containerFlex_Fb'>
+        <ItemList producto={producto} titulo={titulo} />
+      </div>
+    </>
   )
 }
 

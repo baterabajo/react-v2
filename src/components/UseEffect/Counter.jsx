@@ -11,7 +11,7 @@ const contador = () => {
 
 return (
     <div>
-        <h1>Counter: {count}</h1>
+        <h1 classname='titulo'>Counter: {count}</h1>
         <button onClick={() => contador(count + 1)}>Increment</button>
         <button onClick={() => setCount(count - 1)}>Decrement</button>
 </div>

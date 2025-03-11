@@ -8,7 +8,7 @@ export const Usuario = ({nombre,edad,nacionalidad}) => {
 
   return (
     <div  className="usuario">
-      <h1>Nombre:{nombre}</h1>
+      <h1 classname='titulo'>Nombre:{nombre}</h1>
       <p>Edad:{edad}</p>
       <p>Nacionalidad:{nacionalidad}</p>
       <hr></hr>

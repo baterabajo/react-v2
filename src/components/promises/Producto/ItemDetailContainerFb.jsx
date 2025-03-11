@@ -24,7 +24,7 @@ const ItemDetailContainerFb = () => {
 
     return (
         <>
-          <h1>ItemDetailContainerFb</h1>
+          <h1 classname='titulo'>ItemDetailContainerFb</h1>
            {item && <ItemDetail_Fb item={item}  key={item.id}  />}
           </>
       )

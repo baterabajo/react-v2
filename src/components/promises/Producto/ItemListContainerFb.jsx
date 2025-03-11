@@ -12,7 +12,7 @@ const ItemListContainerFirebase = () => {
     const [titulo, setTitulo] = useState("Productos 2");
     const title = "xxxxx";
 
-   //console.log("producto: " + producto);
+    //console.log("producto: " + producto);
 
     useEffect(() => {
 
@@ -36,18 +36,14 @@ const ItemListContainerFirebase = () => {
     }, [title]);
 
 
-
-
     return (
         <>
-            <h1>ItemListContainerFirebase</h1>
+            <h1 classname='titulo'>ItemListContainerFirebase</h1>
             <div className='containerFlex_Fb'>
-            {producto && <ItemList_Fb producto={producto}  titulo={titulo}  />}
+                {producto && <ItemList_Fb producto={producto} titulo={titulo} />}
             </div>
-            
         </>
     )
-
 }
 
 export default ItemListContainerFirebase

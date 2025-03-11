@@ -28,7 +28,7 @@ const TextEfect = () => {
     return (
         <div>
             <input type="text" value={text} onChange={handleText} />
-            <h1>{text}</h1>
+            <h1 classname='titulo'>{text}</h1>
         </div>
     );
 }

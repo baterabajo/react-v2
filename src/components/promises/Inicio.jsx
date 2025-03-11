@@ -6,9 +6,9 @@ function Inicio() {
 
   return (
     <div>
-      <h1>mounting </h1>
-      <h1>updating</h1>
-      <h1>unmounting</h1>
+      <h1 classname='titulo'>mounting </h1>
+      <h1 classname='titulo'>updating</h1>
+      <h1 classname='titulo'>unmounting</h1>
       <TextShow />
 
     </div>

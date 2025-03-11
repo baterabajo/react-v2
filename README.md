@@ -11,13 +11,15 @@ git remote add origin https://github.com/baterabajo/react-v2.git
 
 
 npm run dev
- npm install react-router-dom
+npm install react-router-dom
 npm install react-hook-form
+npm install firebase
 
 Para actualizar React Vite -Netlify
 
 git add .
 git commit -m "Mi primer Reactviet"
+git push -u origin main
 
 revisamos la pagina https://app.netlify.com/sites/react-v2-vite-netlify/overview
 

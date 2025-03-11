@@ -14,16 +14,22 @@ export const ContextoProvider = ({ children }) => {
 
         const estaEnCarrito = nuevoCarrito.find((p) => p.id === itemAgregado.id);
 
+        //console.log("itemAgregado.length: " + itemAgregado.length);
+        //console.log("itemAgregado.id: " + itemAgregado.id);
+
         if (estaEnCarrito) {
             //console.log("Esta en el carrito");
             estaEnCarrito.cantidad += cantidad;
         }
         else {
             //console.log("No Esta");
+            //console.log("itemAgregado: " + itemAgregado);
             nuevoCarrito.push(itemAgregado);
+            setCarrito(nuevoCarrito);
             // setCarrito([...carrito, itemAgregado ]);
         }
-        setCarrito(nuevoCarrito);
+//        console.log("...nuevoCarrito"+ {...nuevoCarrito});
+        
         //console.log(carrito);
    ;
     }

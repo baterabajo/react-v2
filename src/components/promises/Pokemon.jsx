@@ -34,7 +34,7 @@ function Pokemon() {
 
     return (
         <div>
-            <h1>Titulo: Pokemon</h1>
+            <h1 classname='titulo'>Titulo: Pokemon</h1>
             {
                 pokemon &&
                 <div>

@@ -4,6 +4,7 @@ import './Styles.css'
 const ItemCount = ({cantidad,  handleSumar, handleRestar, handleAgregar}) => {
 
   return (
+    
     <div >
       <div className="containerFlexItemCount">
         <div><button class="button button4" onClick={handleRestar}>-</button></div>

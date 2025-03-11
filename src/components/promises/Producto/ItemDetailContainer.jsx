@@ -23,6 +23,7 @@ const ItemDetailContainer = () => {
 
   return (
     <>
+      <h1 classname='titulo'>ItemDetailContainer</h1>
       {item && <ItemDetail item={item}  key={item.id}  />}
     </>
   )

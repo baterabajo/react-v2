@@ -7,6 +7,7 @@ const Item = ({ producto }) => {
 
   return (
    <>
+    <h1 classname='titulo'>Item</h1>
       <img src={producto.image} alt={producto.title} width="200" height="100" />
       <item key={producto.id} />
       <h2>Id: {producto.id}</h2>
